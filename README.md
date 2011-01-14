@@ -227,7 +227,7 @@ Note: this is optional. The default port is 8000.
 
 You can show internal error messages (from Node.js) on page: 
 
-	server.errorMessages(true);
+	server.messages(true);
 
 Note: this is optional, disabled per default.
 
