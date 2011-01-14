@@ -154,9 +154,7 @@ Allowed file extensions for HTML fragments:
 
 ## Routes
 
-In shoogar is a route an URL matching pattern paired with a content type.
-
-in the form:
+In shoogar is a route an URL matching pattern paired with a content type in the form:
 
 	URL-PATTERN : CONTENT-TYPE
 
@@ -164,7 +162,7 @@ The content type can be a:
 
 <table>
     <tr>
-        <th>Matching pattern</th>
+        <th style="text-align:left">Matching pattern</th>
         <th>Content type</th>
     </tr>
     <tr>
