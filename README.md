@@ -1,6 +1,6 @@
 # Documentation
 
-**shoogar** is a minimalistic framework for **Node.js** that makes building high-performance web applications very simple. Especially made for people who do not like to deal with controllers - but still benefit from the advantages of Node.js.
+**shoogar** is a minimalistic framework for **Node.js** that makes building high-performance web applications very simple. Especially made for people who do not like to deal with controllers - but don't take a pass on the benefits of Node.js..
 
 
 ## Why yet another framework?
