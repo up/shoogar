@@ -158,8 +158,6 @@ In shoogar is a route an URL matching pattern paired with a content type in the 
 
 	URL-PATTERN : CONTENT-TYPE
 
-The content type can be a:
-
 <table>
     <tr>
         <th>Matching pattern</th>
