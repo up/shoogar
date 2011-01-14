@@ -1,0 +1,9 @@
+# https://github.com/remy/nodemon
+
+./.git/*        # ignore git
+/assets/*       # ignore all assets
+*.md            # ignore markdown files  
+*.htm           # ignore static files  
+*.html          # ignore static files  
+./package.json  # ignore npm package info
+
