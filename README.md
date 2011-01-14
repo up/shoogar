@@ -184,12 +184,12 @@ The content type can be a:
     </tr>
     <tr>
         <td>Function</td>
-        <td>Function for clientside action</td>
+        <td>Function for client side action</td>
     </tr>
 </table>
 
 
-The shoogar Scaffolding mechanism auto-generates a route for the root URL pattern '/' and the default page content - the 'It works!' message.
+The shoogar scaffolding mechanism auto-generates a route for the root URL pattern '/' and the default page content - the 'It works!' message.
 
 To override this route, do something like this:
 
