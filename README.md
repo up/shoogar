@@ -77,10 +77,10 @@ Scaffolding (known from Rails, Grails, etc.) allows you to auto-generate an appl
 1. Controller actions for create/read/update/delete (CRUD) operations
 2. The necessary views
 
-The shoogar Scaffolding mechanism by contrast is very simple:
+The shoogar Scaffolding mechanism by contrast is very simple. Shoogar generates:
 
-1. generates a route for the root document, normally something like index.html (see 'Routes' below)
-2. generates 3 HTML fragments. The top and bottom of an rudimentary HTML document and also the 'It works!' message.
+1. a route for the root document, normally something like index.html (see 'Routes' below).
+2. three HTML fragments - the top and bottom of a rudimentary HTML document and also the 'It works!' message.
 
 The HTML-Top-Fragment:
 
