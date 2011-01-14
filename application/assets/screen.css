@@ -17,6 +17,10 @@ h5, pre {
   padding: 0;
 }
 
+img {
+  border: none;
+}
+
 a {
   color: #635E57;
   text-decoration:underline;

@@ -2,6 +2,7 @@
 
 ./.git/*        # ignore git
 /assets/*       # ignore all assets
+/views/*       # ignore all assets
 *.md            # ignore markdown files  
 *.htm           # ignore static files  
 *.html          # ignore static files  

@@ -3,13 +3,13 @@
 **shoogar** is a minimalistic framework for **Node.js** that makes building web-application very simple.
 
 
-## Goals
+## Why yet another framework?
 
 There are a lot of interesting web-frameworks for Node.js (see **[node frameworks][]**). Most of them are (H)MVC-based and inspired by popular  frameworks like `Rails`, `Sinatra`, `Grails`, `Django`, `CodeIgniter` or `Kohana`. Great for Back-End Experts, but no special framework for Font-End Developers.
 
-**So here comes shoogar!** The main goal was 'Front-ender friendly' and shoogar should ..
+**So here comes shoogar!** The main goal was 'Front-End Developer friendly' and shoogar should ..
 
-* works as a simple http static file server
+* work as a simple http static file server
 * generate applications quickly
 * use strings and static HTML fragments for views
 * have a simple and robust router mechanism
@@ -49,7 +49,7 @@ The command for starting the server is:
 	
 The complete `server.js`:
 
-	var server = require('./modules/shoogar');
+	var server = require('./lib/shoogar');
 	// All other parts here
 	server.start();
 	
@@ -202,7 +202,7 @@ Working with strings are not convenient. It's better you put it in a file and de
 
 You can define also a static file:
 
-	'/contact' : 'views/contact.htm'
+	'/contact' : 'static/contact.htm'
 
 You like bizarre URLs? Not a problem:
 
