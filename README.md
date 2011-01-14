@@ -162,8 +162,8 @@ The content type can be a:
 
 <table>
     <tr>
-        <th style="text-align:left !important">Matching pattern</th>
-        <th style="text-align:left !important">Content type</th>
+        <th>Matching pattern</th>
+        <th>Content type</th>
     </tr>
     <tr>
         <td>String that ends with '.inc', '.tpl'. '.tmpl', '.fhtm' or '.fhtml'</td>
