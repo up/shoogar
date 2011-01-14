@@ -1,8 +1,9 @@
 <div>
 	<p>
-		There are a lot of interesting web-frameworks for Node.js. Most of them are (H)MVC-based and inspired by popular 
-		frameworks like Rails, Sinatra, Grails, Django, CodeIgniter or Kohana. Great for Back-End Experts, 
-		but no special framework for Font-End Developers. So here comes <strong>shoogar</strong>!
+		Meanwhile, there are a number of useful frameworks for Node.js. Most of them are (H)MVC-based and inspired by popular 
+		frameworks like Rails, Sinatra, Grails, Django, CodeIgniter or Kohana. Great for Back-End Experts, but no specifically 
+		framework for Font-End Developers and other people who do not like to deal with controllers. 
+		So here comes <strong>shoogar</strong>!
 	</p>
 
 	<h3>Features</h3>
