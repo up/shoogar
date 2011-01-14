@@ -197,11 +197,11 @@ To override this route, do something like this:
 	  '/' : '<h1>Welcome!</h1>'	
 	});
 
-Working with strings are not convenient. It's better you put it in a file and define here the path to the fragment file:
+Working with strings is not convenient. Better put it in a file and define here the path to the fragment file:
 
 	'/' : 'views/welcome.tmpl'
 
-You can define also a static file:
+You can also define a static file:
 
 	'/contact' : 'static/contact.htm'
 
