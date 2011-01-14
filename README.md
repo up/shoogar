@@ -171,20 +171,20 @@ The content type can be a:
         <th>Content type</th>
     </tr>
     <tr>
-        <td>A string that ends with '.inc', '.tpl'. '.tmpl', '.fhtm' or '.fhtml'</td>
-        <td>A relative path to an HTML fragment</td>
+        <td>String that ends with '.inc', '.tpl'. '.tmpl', '.fhtm' or '.fhtml'</td>
+        <td>Relative path to an HTML fragment</td>
     </tr>
     <tr>
-        <td>A string that ends with '.htm' or '.html'</td>
-        <td>A relative path to an HTML document</td>
+        <td>String that ends with '.htm' or '.html'</td>
+        <td>Relative path to an HTML document</td>
     </tr>
     <tr>
-        <td>A String that ends without one of the above extensions</td>
+        <td>String that ends without one of the above extensions</td>
         <td>Pur text or an HTML fragment</td>
     </tr>
     <tr>
-        <td>A function</td>
-        <td>A function for clientside action</td>
+        <td>Function</td>
+        <td>Function for clientside action</td>
     </tr>
 </table>
 
