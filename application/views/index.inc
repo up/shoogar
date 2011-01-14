@@ -14,8 +14,10 @@
 		<li>have a simple and robust router mechanism</li>
 		<li>offer a simple scaffolding mechanism</li>
 		<li>include a basic template mechanism</li>
-		<li>be a single script module</li>
-		<li>not use controller!!!</li>
+		<li>single script module</li>
+		<li>no controller!</li>
+		<li>and last but not least, well documented</li>
+		
 	</ul>
 
 	<p>Check shoogar installation:</p>

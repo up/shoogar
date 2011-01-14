@@ -16,7 +16,8 @@ There are a lot of interesting web-frameworks for Node.js (see **[node framework
 * offer a simple scaffolding mechanism
 * include a basic template mechanism
 * be a single script module 
-* not use controller!!!
+* not use controller!
+* and last but not least, well documented
 
 
 ### What is planned for the next release?
