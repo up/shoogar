@@ -230,14 +230,11 @@ Note: this is optional. The default port is 8000.
 
 ## Error messages
 
-You can show internal error messages on page what's going wrong: 
+You can show internal error messages (from Node.js) on page: 
 
 	server.errorMessages(true);
 
 Note: this is optional, disabled per default.
-
-
-
 
 
 [node docs]: http://nodejs.org/api.html#_modules
