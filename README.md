@@ -209,7 +209,9 @@ And yo can do it a little RESTfully:
 	    '<h1>Hello ' + (arguments[0] || ' World') + '!</h1>' +
 	  );
 	}
-	// Example: /hello/Steve => <h1>Hello Steve!</h1>
+	// Example: 
+	// http://0.0.0.0:8000/hello/Steve 
+	// => <h1>Hello Steve!</h1>
 	
 	
 ## Port
