@@ -148,9 +148,9 @@ If you need another HTML-Bottom-Fragment, you can do it in the same way:
 
 Allowed file extensions for HTML fragments:
 
-* ".inc" (include files)
-* ".tpl" or ".tmpl" (template files)
-* ".fhtm" or ".fhtml" (HTML fragment file)
+* '.inc' (include files)
+* '.tpl' or '.tmpl' (template files)
+* '.fhtm' or '.fhtml' (HTML fragment file)
 
 ## Routes
 
@@ -189,17 +189,17 @@ The content type can be a:
 </table>
 
 
-The shoogar Scaffolding mechanism auto-generates a route for the root URL pattern "/" and the default page content - the 'It works!' message.
+The shoogar Scaffolding mechanism auto-generates a route for the root URL pattern '/' and the default page content - the 'It works!' message.
 
 To override this route, do something like this:
 
 	server.setRoutes({
-	  "/" : "<h1>Welcome!</h1>"	
+	  '/' : '<h1>Welcome!</h1>'	
 	});
 
 Working with strings are not convenient. It's better you put it in a file and define here the path to the fragment file:
 
-	"/" : "views/welcome.tmpl"
+	'/' : 'views/welcome.tmpl'
 
 You can define also a static file:
 
