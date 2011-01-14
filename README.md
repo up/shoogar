@@ -154,10 +154,7 @@ Allowed file extensions for HTML fragments:
 
 ## Routes
 
-In shoogar, a route: 
-
-* is an URL matching pattern. 
-* is paired with a content.
+In shoogar is a route an URL matching pattern paired with a content type.
 
 in the form:
 
