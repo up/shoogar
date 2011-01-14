@@ -202,7 +202,7 @@ You like bizarre URLs? Not a problem:
 
 	'/phone/0/129/40/55/333' : 'views/phone.tmpl'
 
-And yo can do it a little RESTfully:
+And yo can do it RESTfully:
 
 	'/hello/*' : function(){
 	  document.write(
