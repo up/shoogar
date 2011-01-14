@@ -1,11 +1,11 @@
 # Documentation
 
-**shoogar** is minimalistic framework for **Node.js** that makes building web-application very simple.
+**shoogar** is a minimalistic framework for **Node.js** that makes building web-application very simple.
 
 
 ## Goals
 
-There are a lot of interesting web-frameworks for Node.js (see **[node frameworks][]**). Most of them are (H)MVC-based and inspired by popular  frameworks like `Rails`, `Sinatra`, `Grails`, `Django`, `CodeIgniter` or `Kohana`. Great for Back-End Experts, but no special framwork for Font-End Developer 
+There are a lot of interesting web-frameworks for Node.js (see **[node frameworks][]**). Most of them are (H)MVC-based and inspired by popular  frameworks like `Rails`, `Sinatra`, `Grails`, `Django`, `CodeIgniter` or `Kohana`. Great for Back-End Experts, but no special framework for Font-End Developers.
 
 **So here comes shoogar!** The main goal was 'Front-ender friendly' and shoogar should ..
 
