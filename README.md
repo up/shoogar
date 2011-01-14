@@ -198,11 +198,11 @@ You can also define a static file:
 
 	'/contact' : 'static/contact.htm'
 
-You like bizarre URLs? Not a problem:
+You like bizarre URLs? No problem:
 
 	'/phone/0/129/40/55/333' : 'views/phone.tmpl'
 
-And yo can do it RESTfully:
+And you can do it 'RESTfully':
 
 	'/hello/*' : function(){
 	  document.write(
