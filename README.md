@@ -7,7 +7,7 @@
 
 Meanwhile, there are a number of useful frameworks for Node.js (see **[node modules][]**). Most of them are (H)MVC-based and inspired by popular  frameworks like `Rails`, `Sinatra`, `Grails`, `Django`, `CodeIgniter` or `Kohana`. Great for Back-End Experts, but no specifically framework for Font-End Developers.
 
-**So here comes shoogar!**:
+**So here comes shoogar**:
 
 * simple http static file server
 * simple and robust router mechanism
