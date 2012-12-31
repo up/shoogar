@@ -7,17 +7,14 @@
 	</p>
 
 	<h3>Features</h3>
-
 	<ul>
-		<li>work as a simple HTTP static file server</li>
-		<li>generate applications quickly</li>
-		<li>use strings and static HTML fragments for views</li>
-		<li>have a simple and robust router mechanism</li>
-		<li>offer a simple scaffolding mechanism</li>
-		<li>include a basic template mechanism</li>
+		<li>simple http static file server</li>
+		<li>simple and robust router mechanism</li>
+		<li>simple scaffolding mechanism</li>
+		<li>basic template mechanism</li>
+		<li>strings and static HTML fragments for views</li>
 		<li>single script module</li>
-		<li>no controller!</li>
-		<li>and last but not least, well documented</li>
+		<li>.. and no controller!</li>
 		
 	</ul>
 

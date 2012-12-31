@@ -5,19 +5,17 @@
 
 ## Why yet another framework?
 
-Meanwhile, there are a number of useful frameworks for Node.js (see **[node frameworks][]**). Most of them are (H)MVC-based and inspired by popular  frameworks like `Rails`, `Sinatra`, `Grails`, `Django`, `CodeIgniter` or `Kohana`. Great for Back-End Experts, but no specifically framework for Font-End Developers.
+Meanwhile, there are a number of useful frameworks for Node.js (see **[node modules][]**). Most of them are (H)MVC-based and inspired by popular  frameworks like `Rails`, `Sinatra`, `Grails`, `Django`, `CodeIgniter` or `Kohana`. Great for Back-End Experts, but no specifically framework for Font-End Developers.
 
-**So here comes shoogar!** The main goal was 'Front-End Developer friendly' and shoogar should ..
+**So here comes shoogar!**:
 
-* work as a simple http static file server
-* generate applications quickly
-* use strings and static HTML fragments for views
-* have a simple and robust router mechanism
-* offer a simple scaffolding mechanism
-* include a basic template mechanism
-* be a single script module 
-* not use controller!
-* and last but not least, well documented
+* simple http static file server
+* simple and robust router mechanism
+* simple scaffolding mechanism
+* basic template mechanism
+* strings and static HTML fragments for views
+* single script module 
+* .. and no controller!
 
 
 ### What is planned for the next release?
@@ -27,9 +25,7 @@ Meanwhile, there are a number of useful frameworks for Node.js (see **[node fram
 
 ## Modules
 
-Shoogar requires 'async', available for download from <a href="http://github.com/caolan/async/downloads">GitHub</a>. Alternatively, you can install using Node Package Manager (npm):
-
-	npm install async
+Shoogar uses '**[sequence.js][]**', a tiny extension for asynchronous processing of javascript functions.
 
 Copy the shoogar.js file in the same directory as your root script (eg. `server.js`) or a directory below and require it with a relative path:
 
@@ -48,7 +44,7 @@ The command for starting the server is:
 
 	server.start();
 	
-The complete `server.js`:
+.. or in `server.js`:
 
 	var server = require('./lib/shoogar');
 	// All other parts here
@@ -64,7 +60,7 @@ That' all, and you can see the `shoogar-started`-message:
 	>> shoogar started .. 
 	>> Listening on port 8000
 	
-Go in your browser to http://0.0.0.0:8000 and you should see the 'It works!' message - otherweise you have a problem.
+Go in your browser to http://localhost:8000 and you should see the 'It works!' message - otherweise you have a problem.
 
 <h3 style="text-align:center;">It works! The shoogar HTTP server is running ..</h3>
 
@@ -232,6 +228,6 @@ You can show internal error messages (from Node.js) on page:
 Note: this is optional, disabled per default.
 
 
-[node docs]: http://nodejs.org/api.html#_modules
-[node frameworks]: https://github.com/ry/node/wiki/modules
-
+[node docs]: http://nodejs.org/api/modules.html
+[node modules]: https://github.com/ry/node/wiki/modules
+[sequence.js]: http://github.com/up/sequence

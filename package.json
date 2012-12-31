@@ -1,6 +1,6 @@
 {
   "name"          : "shoogar",
-  "version"       : "0.1.0",
+  "version"       : "0.1.1",
   "description"   : "A minimalistic http server for node.js with simple template engine.",
   "url"           : "http://documentcloud.github.com/underscore/",
   "keywords"      : ["node.js", "server", "templates"],

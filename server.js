@@ -1,7 +1,7 @@
 
 var server = require('./lib/shoogar');
 
-server.setPort(8001);                       // default: 8000
+server.setPort(8088);                  // default: 8000
 
 //server.messages(true);               // default: false
 
