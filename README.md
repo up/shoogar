@@ -107,7 +107,7 @@ If you want to override the scaffold view, you can create a new HTML-Top-Fragmen
 
 	server.setTemplates({
 	  top : 
-		'<!DOCTYPE HTML>'
+	    '<!DOCTYPE HTML>' +
 	    '<html>' + 
 	    '  <head>' +
 	    '    <title>My template</title>' +
